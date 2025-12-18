@@ -124,4 +124,7 @@ for i in range(total_votos):
     elif voto == 6:
         votos_brancos += 1
     else:
-        print("Voto inválido. Tente novamente.")        
+        print("Voto inválido. Tente novamente.")
+print("\nResultado da eleição:")
+for candidato, votos in candidatos.items():
+    print(f"Candidato {candidato}: {votos} votos")
